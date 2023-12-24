@@ -1,5 +1,10 @@
 package org.branch.datatype;
 
+/**
+ * @author Gopalakrishnan
+ *
+ * Primitve values are the basic types offered by Java
+ */
 public class PrimitivesLeaf {
 
     public static void main(String[] args) {
