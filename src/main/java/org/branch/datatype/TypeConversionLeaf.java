@@ -57,5 +57,15 @@ public class TypeConversionLeaf {
         charValue = (char) intValue; // Explicit conversion
 
         System.out.println(charValue);
+
+        // Type conversion in expressions
+        // When an expression involves multiple types, then the types are all promoted to a common type and the operations
+        // are performed. So, short, byte, char are promoted to int. Then if long is involved, int is promoted to long.
+        // If float is involved long is promoted to float. The same for double
+
+        byteValue = 10;
+        // Here an explicit cast is needed as the expression (byteValue * byteVale) results in an int value as the
+        // individual byteValue is promoted to int.
+        byteValue = (byte) (byteValue * byteValue);
     }
 }
