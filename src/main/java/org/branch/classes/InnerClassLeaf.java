@@ -1,11 +1,11 @@
-package org.cherry.classes;
+package org.branch.classes;
 
 /**
  * @author ggopalakrishnan
  * <p>
  * An inner class object is always associated with an instance of its enclosing class.
  */
-public class InnerClassPetal {
+public class InnerClassLeaf {
 
     public static void main(String[] args) {
 
